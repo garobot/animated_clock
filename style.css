@@ -114,7 +114,30 @@ body{
     border-radius: 6px 6px 0 0;
 }
 
+.css-selector {
+    background: linear-gradient(43deg, #105fff, #a402c8, #5d269b);
+    background-size: 600% 600%;
 
+    -webkit-animation: anime 30s ease infinite;
+    -moz-animation: anime 30s ease infinite;
+    animation: anime 30s ease infinite;
+}
+
+@-webkit-keyframes anime {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes anime {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes anime {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
 
 
 
